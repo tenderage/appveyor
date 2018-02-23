@@ -1,11 +1,6 @@
 # Build worker image (VM template)
 image: Visual Studio 2015
 
-# environment variables
-environment:
-  pool: value1
-  wallet: value2
-
 # scripts that run after cloning repository
 install:
   - echo This is batch
